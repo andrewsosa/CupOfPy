@@ -4,8 +4,12 @@
 import Scanner
 import Builder
 
-Scanner.buildLog("/Users/andrewsosa/Documents/workspace/Python/CupOfPy")
-t = Builder.buildTree()
+def getTree():
 
-temp = t.root
-t.print_all_children(temp)
+    Scanner.buildLog("/Users/andrewsosa/Documents/workspace/Python/CupOfPy")
+    return Builder.buildTree()
+
+if __name__ == "__main__":
+    t = getTree()
+    temp = t.root
+    t.print_all_children(temp)
