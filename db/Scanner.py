@@ -35,4 +35,5 @@ def buildLog(start):
         print "Not a valid absolute path."
 
 if __name__ == "__main__":
+    //buildLog("/Users/andrewsosa/Documents/workspace/Python/CupOfPy")
     buildLog("/Users/andrewsosa/Documents/workspace/Python/CupOfPy")

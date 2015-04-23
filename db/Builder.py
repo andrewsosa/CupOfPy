@@ -3,7 +3,6 @@ from Tree import Tree
 def buildTree():
 
     #start = raw_input("Please enter the log file name: ")
-
     myFile = file("log.txt", "r")
     lines = myFile.readlines()
 
