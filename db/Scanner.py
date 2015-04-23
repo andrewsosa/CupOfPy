@@ -31,6 +31,9 @@ def buildLog(start):
     if os.path.isabs(start):
         sys.stdout = open('log.txt', 'w')
         traverse(start)
+        myFile = sys.stdout
+        myFile.close()
+        sys.stdout = sys.__stdout__
     else:
         print "Not a valid absolute path."
 

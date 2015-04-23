@@ -6,6 +6,7 @@ def buildTree():
 
     myFile = file("log.txt", "r")
     lines = myFile.readlines()
+    myFile.close()
 
     t = Tree()
     for l in lines:
