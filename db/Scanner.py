@@ -3,10 +3,15 @@ import os
 import sys
 import thread
 
+# Predefine a thing
+threadFlag = False
+
+
 def buildLog(start):
     # Grab inital directory starting point
     #start = os.getcwd()
     #start = raw_input("Please enter a path name: ")
+
 
     # Checks to which type this is
     def print_entry(path):
@@ -26,24 +31,24 @@ def buildLog(start):
         #threading check
         if threadFlag==False:
             dirlist=[]
-            for file in os.listdir(directory)
+            for file in os.listdir(directory):
                 if os.path.isdir(directory + "/" + file):
-                    dirlist.push(directory+"/"+file)
+                    dirlist.append(directory+"/"+file)
             if len(dirlist) > 1:
                 for entry in dirlist:
-                    thread.start_new_thread(traverse(entry))
+                    thread.start_new_thread(traverse, (entry, ))
+                global threadFlag
                 threadFlag=True
 
         #print " "
-    else:
-        for file in os.listdir(directory):
-            if os.path.isdir(directory + "/" + file):
-                traverse(directory + "/" + file)
+        else:
+            for file in os.listdir(directory):
+                if os.path.isdir(directory + "/" + file):
+                    traverse(directory + "/" + file)
 
     # Start the traversal
     if os.path.isabs(start):
         sys.stdout = open('log.txt', 'w')
-        threadFlag=False
         traverse(start)
         myFile=sys.stdout
         myFile.close()
