@@ -1,6 +1,6 @@
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.DS_Store		6148
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.gitignore		708
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.gitignore		715
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/CupOfPy.py		2569
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/gui
@@ -9,17 +9,18 @@ file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/log.txt		27515
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/README.md		294
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/requirements.txt		102
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/testGUI.py		1446
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/COMMIT_EDITMSG		21
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/COMMIT_EDITMSG		80
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/config		329
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/description		73
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/FETCH_HEAD		0
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/FETCH_HEAD		102
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/HEAD		23
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/hooks
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/index		1904
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/index		2072
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/info
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/lfs
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/logs
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/ORIG_HEAD		41
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/refs
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/hooks/applypatch-msg.sample		452
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/hooks/commit-msg.sample		896
@@ -34,73 +35,160 @@ file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/info/exclude		24
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/lfs/objects
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/lfs/tmp
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/lfs/objects/logs
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/logs/HEAD		168
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/logs/HEAD		1094
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/logs/refs
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/logs/refs/heads
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/logs/refs/remotes
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/logs/refs/heads/master		168
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/logs/refs/heads/master		1094
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/logs/refs/remotes/origin
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/logs/refs/remotes/origin/master		144
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/logs/refs/remotes/origin/master		938
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/07
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/0a
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/0d
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/15
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/1b
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/22
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/24
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/25
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/27
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/28
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/29
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/2b
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/2d
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/2e
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/30
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/36
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/3f
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/41
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/45
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/4a
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/4b
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/51
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/53
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/54
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/55
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/58
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/59
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/5a
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/5c
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/63
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/6a
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/70
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/89
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/8a
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/93
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/94
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/9a
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/9c
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/9e
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/a5
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/aa
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/ae
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/b2
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/b3
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/b7
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/b8
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/b9
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/ba
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/bb
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/c4
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/cc
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/cd
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/cf
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/d2
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/d9
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/df
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/e4
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/e6
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/e8
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/eb
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/ef
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/f0
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/f1
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/f4
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/f5
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/fa
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/fd
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/fe
+folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/ff
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/info
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/pack
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/07/027472241bf97e385677d5d93bcae3b9b386ad		451
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/0a/b655e830b3dbe131a411c15547f7808d2ec390		183
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/0d/eee7bf98da8f9b7450f420b5f39f082b165cf2		211
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/15/abac02352cd6bc07261fde323068ae855633bf		302
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/1b/169237bdd9a9333a9cab952b51c55c3539b29d		303
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/22/9d5d2bd579f9a48ae0a6d413969c918831d958		498
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/24/40d42a78c237abe2beaa40645c3ce24ed6bbcc		184
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/25/b8c2c11ec03a343a0e9306d344fccda969dd33		310
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/27/4b25f394a7856bdb991d957a6a0ea2d279830a		303
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/28/4a4a702f8a478d5a61fffcd293323e418ad9c9		4614
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/29/9e859259296be15fb9ae099ab0315c498a50ad		168
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/2b/91138af1335b07b8c24b42d205497f00a5d39c		598
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/2d/cf1af3b95d473cffe41648d8880b962a0b8724		1066
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/2e/2efed69b3190739f505accf66050c94e53f7cb		1137
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/30/53a3d541cbf56c25136e842be7b5f568cfce97		862
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/36/2e779a48547e53a120f7cba5cf1f5ddcf89ba7		344
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/3f/89df63eabab33d65dbd56924e34d4ca8d92cce		511
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/41/229d47c1df613c2af16a592c80c41606f43afb		2625
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/45/45056cb92c904df1993a82f5de8444f3a0981e		310
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/4a/5513fbaa60bd80b65c297acdf5ddf73eefd535		221
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/4b/088c33145fd4aef2f5ba5b6d240e4ce4db21f1		164
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/51/9d61ee0f0baa7f9cb1b23bb883a1db718d15a6		221
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/53/3b6435cb161020877bd6f436a9e77aded7df2c		182
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/54/6cf48fc6425c065966d79daab40ec8036431cb		310
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/55/3e96cb15de0d073541db28246a1dcf69e562da		668
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/58/c214db56d49a660bca6098787367b399706cfc		301
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/59/dcb2ff22f56a5a047d1c3ca291fe5f296c5ffc		343
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/5a/cb1f5920087231719ccbc5fbbed493ddb46d8c		921
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/5c/79ecf6cbfaa41ef589f8f8d93b6dccffeeb718		288
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/5c/f3a55d0a10a62b5a8d8a5f4a153adc7315a245		527
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/63/903604b5f1576efe27e01c4683d56354506ef8		450
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/6a/2412958fc4f1e51ff42388450a19b9d73c7b0d		288
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/6a/f24712b84623d41170d3e04699b0f9ba4dda89		183
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/70/0085a7e552ef1c5622999748db8a9e259545b2		167
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/89/87558a0cfe19a0625d15d77cead37a0b953e68		161
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/8a/f0480067d873519ffe051cecc7db247ed1edd6		56
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/93/f858fdaaedc5a4b7231245e795d9c72917e1bd		219
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/94/a3ce8124c386fe6f55f548c0bfa986e8cebf5d		303
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/9a/b3a72b6db3b628d19886b42479bb4f01a68748		1016
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/9a/cbfb2403370b7fc79aa9533d77ae2b407631ed		42
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/9c/b3bd54049a113da39cd109c08c6d12dc7a04e4		69
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/9e/7a028eff4e8064db678782bfcb9973cdbb7ddc		272
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/a5/95581cd96bfb2ad4331a250a9b3cf0cc362aba		343
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/a5/a4e578707602f886a9a628acd850fea516b571		218
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/aa/f76bdbe358aa6b955ff32195d5a443fb641f68		612
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/ae/e3a0595efccf33fb77472dae8f0f3b6351ee5a		292
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/b2/ab49fbd855840eab4b2e61452267de1ff4b9a0		219
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/b3/d03c455e1fc75cd6b532f13f804c813edec6d2		503
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/b7/c9f373bcc466ba8eb0950fc9438fde6fb46f2b		337
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/b8/2d789b1762e4138e6aa30852501fe879050acf		273
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/b9/fe59187d1ad0ed1bc874d8ba2af2230e8e3231		90
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/ba/01d0501cf107669b664507734b8b4efdba1e1a		223
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/ba/a06942023d9d5138b11bc4a7f85491d36663ef		310
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/bb/5d71e33c67d2bf3ac86882e3bd1b9731ea643d		51
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/bb/65864d504ea2bc38b2839b96b6cb3415cafef2		454
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/c4/a8dc52b6e821e8f64db6114676bc054bc92740		220
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/cc/fe1a1fc286686d44132204342348d6ecf1d925		341
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/cd/8b74e48ebfd862e0aadc1bf3d6d04a4b34944b		1969
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/cf/a0462991ab97a82c36f61bb5e75fc174d19a62		136
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/d2/8c594171212fa1d1fc9762ac4a9f2675a43f68		303
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/d9/fa7edf9080e6553696b33989dbd5b396249b51		220
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/df/1b20f428e972f79b8e447755c59013e18e0fb0		180
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/e4/0cf67b7e996ced566d8fc8bf728394e4a78193		309
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391		15
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/e6/a418fea3d4d300da2f2b5eb6ce291d6d1886d5		5095
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/e8/704e67dc54ebf3a230379b8e159d7d3dc39842		57
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/eb/27f5ecb7dd9c118fd26c3ca187d34d630e57eb		90
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/ef/27b1ab76ab5bdd3e2bb9db83ded4ef52cad9d0		148
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/f0/682b2c293fc65902a6e4db2e04b857d704159b		212
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/f1/a566712771f5bc1bf82cffe20d59a0ae4086ee		343
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/f4/0cf00730fe1bbae2a83d11a06b790cb3dcbcfa		310
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/f5/2dd33cdd224569c30402e0c96934da70f5de4a		194
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/fa/7d04faca13a0b4c5ffa828556f9d21c876a62f		218
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/fd/935a18c4087d6e8980b22321de9c2f10d66b08		218
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/fe/7a24e7f1933b7ba09cdcd83a1a43236ba653a8		502
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/objects/ff/1b70c1bfc6a5976c8d0488dee7a727d29e58d1		163
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/refs/heads
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/refs/remotes
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/refs/tags
@@ -108,18 +196,19 @@ file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/refs/heads/maste
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/refs/remotes/origin
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git/refs/remotes/origin/master		41
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/.DS_Store		6148
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/Builder.py		540
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/Builder.pyc		780
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/Director.py		199
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/log.txt		8192
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/Builder.py		559
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/Builder.pyc		802
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/Director.py		279
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/log.txt		16384
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/Node.py		643
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/Node.pyc		1621
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/Pathtools.py		205
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/Pathtools.pyc		635
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/sample		26
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/scanner.py		1060
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/Scanner.pyc		1325
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/Scanner.py		1147
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/Scanner.pyc		1398
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/test.in		53
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/tkintrgui.py		1790
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/Tree.py		1536
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db/Tree.pyc		2105
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/gui/__init__.py		0
@@ -128,7 +217,7 @@ file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/gui/cupofpyGUI.py		13
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/gui/cupofpyHelper.py		635
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/gui/frame.py		3103
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/gui/furrealdough
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/gui/furrealdough/tkintrgui.py		1650
+file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/gui/furrealdough/tkintrgui.py		1790
 folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/images/statusbar
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/images/statusbar/close-tab.png		842
 file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/images/statusbar/refresh.png		996

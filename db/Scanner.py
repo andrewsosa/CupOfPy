@@ -45,6 +45,9 @@ def buildLog(start):
         sys.stdout = open('log.txt', 'w')
         threadFlag=False
         traverse(start)
+        myFile = sys.stdout
+        myFile.close()
+        sys.stdout = sys.__stdout__
     else:
         print "Not a valid absolute path."
 
