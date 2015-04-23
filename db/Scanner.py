@@ -1,6 +1,7 @@
 # scanner.py by Andrew Sosa
 import os
 import sys
+import thread
 
 def buildLog(start):
     # Grab inital directory starting point
@@ -22,7 +23,19 @@ def buildLog(start):
             #print "\t" + file
             print_entry(directory + "/" + file)
 
+        #threading check
+        if threadFlag==False:
+            dirlist=[]
+            for file in os.listdir(directory)
+                if os.path.isdir(directory + "/" + file):
+                    dirlist.push(directory+"/"+file)
+            if len(dirlist) > 1:
+                for entry in dirlist:
+                    thread.start_new_thread(traverse(entry))
+                threadFlag=True
+
         #print " "
+    else:
         for file in os.listdir(directory):
             if os.path.isdir(directory + "/" + file):
                 traverse(directory + "/" + file)
@@ -30,6 +43,7 @@ def buildLog(start):
     # Start the traversal
     if os.path.isabs(start):
         sys.stdout = open('log.txt', 'w')
+        threadFlag=False
         traverse(start)
     else:
         print "Not a valid absolute path."
