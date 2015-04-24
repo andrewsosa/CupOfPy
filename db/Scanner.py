@@ -1,6 +1,7 @@
 # scanner.py by Andrew Sosa
 import os
 import sys
+import string
 
 def buildLog(start):
     # Grab inital directory starting point
@@ -9,10 +10,11 @@ def buildLog(start):
 
     # Checks to which type this is
     def print_entry(path):
+        path_copy = string.replace(path, " ", "_")
         if os.path.isdir(path):
-            print "folder\t\t" + path
+            print "folder\t\t" + path_copy
         else:
-            print "file\t\t" + path + "\t\t" + str(os.stat(path).st_size)
+            print "file\t\t" + path_copy + "\t\t" + str(os.stat(path).st_size)
 
     # Recursive file traversal
     def traverse(directory):
@@ -25,11 +27,11 @@ def buildLog(start):
         #print " "
         for file in os.listdir(directory):
             try:
-                if os.path.isdir(directory + "/" + file):
-                    sys.__stdout__.write("Working on " + directory + "/" + file + "\n")
+                if os.path.isdir(directory + "/" + file) and not os.path.islink(directory + "/" + file):
+                    #sys.__stdout__.write("Working on " + directory + "/" + file + "\n")
                     traverse(directory + "/" + file)
             except OSError as e:
-                print "OS Error({0}): {1}".format(e.errno, e.strerror)
+                print "OS Error({0}): {1} \n".format(e.errno, e.strerror)
                 continue
 
     # Start the traversal
