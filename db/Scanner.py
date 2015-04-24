@@ -3,9 +3,9 @@ import os
 import sys
 import thread
 
-# Predefine a thing
+# Predefine things
 threadFlag = False
-
+outputList = []
 
 def buildLog(start):
     # Grab inital directory starting point
@@ -15,10 +15,13 @@ def buildLog(start):
 
     # Checks to which type this is
     def print_entry(path):
+        global outputList
         if os.path.isdir(path):
-            print "folder\t\t" + path
+            #print "folder\t\t" + path
+            outputList.append("folder\t\t" + path)
         else:
-            print "file\t\t" + path + "\t\t" + str(os.stat(path).st_size)
+            #print "file\t\t" + path + "\t\t" + str(os.stat(path).st_size)
+            outputList.append("file\t\t" + path + "\t\t" + str(os.stat(path).st_size)
 
     # Recursive file traversal
     def traverse(directory):
