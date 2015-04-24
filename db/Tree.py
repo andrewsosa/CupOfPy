@@ -11,10 +11,13 @@ class Tree:
 
     def create_node(self, raw_path, node_type, size = 0):
         insert_node = Node(raw_path, node_type, size)
+
         self.recurse(self.root, insert_node, insert_node.path_tokens, 1)
 
     def recurse(self, current_node, insert_node, path_stack, index):
         # Either create a temp node and recurse, or add the insert node
+
+        current_node.size = current_node.size + insert_node.size
 
         # This means it's time to add our node
         if index == len(insert_node.path_tokens):
@@ -26,7 +29,7 @@ class Tree:
 
             # It exists, go to it
             if next_node is not None:
-                current_node.size = current_node.size + insert_node.size
+                #current_node.size = current_node.size + insert_node.size
                 self.recurse(next_node, insert_node, path_stack, index + 1)
                 #print "Hello"
 
