@@ -1,11 +1,10 @@
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.DS_Store		6148
-folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.git
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/.gitignore		715
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/CupOfPy.py		2569
-folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/db
-folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/gui
-folder		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/images
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/log.txt		27515
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/README.md		294
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/requirements.txt		102
-file		/Users/andrewsosa/Documents/workspace/Python/CupOfPy/testGUI.py		1446
+folder		/Users/Michael/github/CupOfPy/.git
+file		/Users/Michael/github/CupOfPy/.gitignore		715
+file		/Users/Michael/github/CupOfPy/CupOfPy.py		2569
+folder		/Users/Michael/github/CupOfPy/db
+folder		/Users/Michael/github/CupOfPy/gui
+folder		/Users/Michael/github/CupOfPy/images
+file		/Users/Michael/github/CupOfPy/log.txt		27515
+file		/Users/Michael/github/CupOfPy/README.md		294
+file		/Users/Michael/github/CupOfPy/requirements.txt		102
+file		/Users/Michael/github/CupOfPy/testGUI.py		1446

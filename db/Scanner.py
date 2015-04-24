@@ -28,6 +28,7 @@ def buildLog(start):
             #print "\t" + file
             print_entry(directory + "/" + file)
 
+        global threadFlag
         #threading check
         if threadFlag==False:
             dirlist=[]
@@ -37,7 +38,6 @@ def buildLog(start):
             if len(dirlist) > 1:
                 for entry in dirlist:
                     thread.start_new_thread(traverse, (entry, ))
-                global threadFlag
                 threadFlag=True
 
         #print " "
@@ -57,4 +57,5 @@ def buildLog(start):
         print "Not a valid absolute path."
 
 if __name__ == "__main__":
-    buildLog("/Users/andrewsosa/Documents/workspace/Python/CupOfPy")
+    #buildLog("/Users/andrewsosa/Documents/workspace/Python/CupOfPy")
+    buildLog("/Users/Michael/github/CupOfPy")
