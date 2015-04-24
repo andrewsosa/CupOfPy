@@ -31,7 +31,7 @@ def buildLog(start):
                     #sys.__stdout__.write("Working on " + directory + "/" + file + "\n")
                     traverse(directory + "/" + file)
             except OSError as e:
-                print "OS Error({0}): {1} \n".format(e.errno, e.strerror)
+                sys.__stdout__.write("OS Error({0}): {1} \n".format(e.errno, e.strerror))
                 continue
 
     # Start the traversal
