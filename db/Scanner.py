@@ -24,8 +24,13 @@ def buildLog(start):
 
         #print " "
         for file in os.listdir(directory):
-            if os.path.isdir(directory + "/" + file):
-                traverse(directory + "/" + file)
+            try:
+                if os.path.isdir(directory + "/" + file):
+                    sys.__stdout__.write("Working on " + directory + "/" + file + "\n")
+                    traverse(directory + "/" + file)
+            except OSError as e:
+                print "OS Error({0}): {1}".format(e.errno, e.strerror)
+                continue
 
     # Start the traversal
     if os.path.isabs(start):
@@ -38,4 +43,5 @@ def buildLog(start):
         print "Not a valid absolute path."
 
 if __name__ == "__main__":
-    buildLog("/Users/andrewsosa/Documents/workspace/Python/CupOfPy")
+    #buildLog("/Users/andrewsosa/Documents/workspace/Python/CupOfPy")
+    buildLog("/Users/andrewsosa")
