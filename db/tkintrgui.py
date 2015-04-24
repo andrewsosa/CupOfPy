@@ -1,19 +1,27 @@
 from Tkinter import *
 import ttk
-import builder
+import Builder
+import Tree
+import Node
 root = Tk()
-tree = ttk.Treeview(root)
+root.minsize(1000, 300)
+tree = ttk.Treeview(root, columns=('Size'))
+tree.column('Size', width=100, anchor='center')
+tree.heading('Size', text='Size')
+#tree.column('Directory', width=100)
+#tree.heading('Directory', text='Directory')
 
-def guibuildfunct(parentname, node):
-{
-	if node.children == []:
-		tree.insert(parentname, end, node.raw_path, text=node.name)
-		return;
-	else:
-		for c in node.children:
-			guibuildfunct(node.raw_path, c)
 
-}
+def guiBuilderFunct(pName, node):
+	tree.insert(pName,'end', node.raw_path, text=node.name, values=(node.size))
+	#print node.raw_path
+	if len(node.children) == 0:
+		#print node.raw_paths
+		return
+	for c in node.children:
+		guiBuilderFunct(node.raw_path,c)
+
+
 
 def donothing():
    filewin = Toplevel(root)
@@ -50,12 +58,12 @@ helpmenu.add_command(label="Help Index", command=donothing)
 helpmenu.add_command(label="About...", command=donothing)
 menubar.add_cascade(label="Help", menu=helpmenu)
 
-tree.insert('', 0, 'widgets', text='Widget Tour')
-tree.insert('', 1, 'widgetss', text='Widget Tour2')
-tree.insert('', 2, 'widgetssss', text='Widget Tour3')
 
 
-guibuildfunct('',t.root)
+t = Builder.buildTree()
+#t.print_all_children(t.root)
+#tree.insert('', 'end', '/root', text='/root')
+guiBuilderFunct('',t.root)
 
 tree.pack(expand = 1, fill= BOTH)
 
