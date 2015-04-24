@@ -9,7 +9,7 @@ class Node:
         self.path_tokens = split_path(self.raw_path)
         self.name = self.path_tokens[len(self.path_tokens) - 1]
         self.type = node_type
-        print size
+        #print size
         self.size = long(size)
 
 
