@@ -5,6 +5,7 @@ import Tree
 import Node
 import Director
 root = Tk()
+root.wm_title("Super Cool File Size Analyzer")
 root.minsize(1000, 300)
 tree = ttk.Treeview(root, columns=('Size'))
 tree.column('Size', width=100, anchor='center')
@@ -43,7 +44,7 @@ def doStuff():
 	for i in tree.get_children():
 		tree.delete(i)
 	s = e.get()
-	print s
+	#print s
 	t = Director.getTree(s)
 	guiBuilderFunct('',t.root)
 	tree.pack(expand = 1, fill= BOTH)
