@@ -3,6 +3,7 @@ import ttk
 import Builder
 import Tree
 import Node
+import Director
 root = Tk()
 root.minsize(1000, 300)
 tree = ttk.Treeview(root, columns=('Size'))
@@ -10,6 +11,7 @@ tree.column('Size', width=100, anchor='center')
 tree.heading('Size', text='Size')
 #tree.column('Directory', width=100)
 #tree.heading('Directory', text='Directory')
+
 
 
 def guiBuilderFunct(pName, node):
@@ -27,9 +29,27 @@ def donothing():
    filewin = Toplevel(root)
    button = Button(filewin, text="Do nothing button")
    button.pack()
+
+
+
    
 
 menubar = Menu(root)
+e = Entry(root)
+e.pack(anchor='w')
+e.delete(0, END)
+e.insert(0, "Path")
+def doStuff():
+	for i in tree.get_children():
+		tree.delete(i)
+	s = e.get()
+	print s
+	t = Director.getTree(s)
+	guiBuilderFunct('',t.root)
+	tree.pack(expand = 1, fill= BOTH)
+
+
+
 filemenu = Menu(menubar, tearoff=0)
 filemenu.add_command(label="New", command=donothing)
 filemenu.add_command(label="Open", command=donothing)
@@ -60,13 +80,16 @@ menubar.add_cascade(label="Help", menu=helpmenu)
 
 
 
-t = Builder.buildTree()
 #t.print_all_children(t.root)
 #tree.insert('', 'end', '/root', text='/root')
-guiBuilderFunct('',t.root)
+#guiBuilderFunct('',t.root)
 
-tree.pack(expand = 1, fill= BOTH)
+
+
+b = Button(root, text="get", width=10, command=doStuff)
+b.pack(anchor='w')
 
 root.config(menu=menubar)
 root.mainloop()
+
 
